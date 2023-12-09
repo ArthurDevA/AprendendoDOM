@@ -61,3 +61,33 @@ input[type="number"] {
     font-size: 2rem;
     font-weight: bolder;
 }
+
+.range {
+    -webkit-appearance: none;
+    background: #eee;
+    width: 100%;
+    height: 8px;
+    border-radius: 0.5rem;
+    outline-color: #5bceae;
+    cursor: pointer;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #3dc0c0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.range.range::-moz-focus-thumb {
+    background: #3dc0c0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+}
+
+.range::-moz-focus-outer {
+    border: 0;
+}
