@@ -38,6 +38,7 @@ section > div {
 
 .gorjeta label {
     flex: 1;
+    align-self: center;
 }
 
 .gorjeta input {
