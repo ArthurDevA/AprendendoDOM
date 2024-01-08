@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <main>
+    <main id="conteiner">
 
         <h1>Gorjeta Rápida</h1>
 
@@ -22,7 +22,7 @@
             </div>
             <div>
                 <div class="porEntre">
-                    <label for="">Selecionar gorjeta</label>
+                    <span>Selecionar gorjeta</span>
                     <span id="gorjetaPorcento">0%</span>
                 </div>
                 <input type="range" value="0" id="porcentagemGorjeta" class="range" />
@@ -42,10 +42,10 @@
         
             <div>
                 <div class="porEntre">
-                    <label for="">Divisão</label>
+                    <span>Divisão</span>
                     <span id="valorQtdPessoas">1 pessoa</span>
                 </div>
-                <input type="range" value="0" id="qtdPessoas" class="range" />
+                <input type="range" value="1" min="1" max="10" id="qtdPessoas" class="range" />
             </div>
             <div class="porEntre">
                 <span>Divisão da conta</span>
@@ -60,5 +60,6 @@
 
     </main>
 
+    <script src="script.js" ></script>
 </body>
 </html>
